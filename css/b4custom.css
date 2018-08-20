@@ -1,0 +1,26 @@
+.navbar-collapse
+{
+    justify-content: flex-end;
+
+}
+
+.navbar
+{
+    background-color: #F97300;
+}
+
+.navbar-light .navbar-nav .nav-link ,
+.navbar-light .navbar-brand
+{
+    color: #fff;
+}
+
+.navbar-toggler
+{
+    border: 0px;
+}
+
+.navbar-light .navbar-toggler-icon
+{
+    background-color: #fff;
+}

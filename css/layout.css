@@ -1,0 +1,104 @@
+body
+{
+    background-color: dodgerblue;
+    margin: 0px;
+}
+
+main
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header
+{
+    height: 200px;
+    background-color: aliceblue;
+}
+
+nav
+{
+    height: 50px;
+    background-color: aliceblue;
+    margin-top: 20px;
+}
+
+section#section_left
+{
+    width: 580px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    float: left; /*ัจัดชิดซ้าย*/
+}
+
+section#section_left article:nth-child(1)
+{
+    height: 600px;
+    background-color: aliceblue;
+}
+
+section#section_left article:nth-child(2)
+{
+    height: 300px;
+    background-color: aliceblue;
+    margin-top: 20px;
+}
+
+section#section_mid
+{
+    width: 100px;
+    float: left; /*ัจัดชิดซ้าย*/
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+section#section_mid article:nth-child(1)
+{
+    height: 380px;
+    background-color: aliceblue;
+    margin-top: 20px;
+}
+
+section#section_mid article:nth-child(2)
+{
+    height: 200px;
+    background-color: aliceblue;
+    margin-top: 20px;
+}
+
+section#section_mid article:nth-child(3)
+{
+    height: 300px;
+    background-color: aliceblue;
+    margin-top: 20px;
+}
+
+
+section#section_right
+{
+    width: 280px;
+    float: left; /*ัจัดชิดซ้าย*/
+}
+
+section#section_right aside:nth-child(1)
+{
+    height: 600px;
+    background-color: aliceblue;
+    margin-top: 20px;
+}
+
+section#section_right aside:nth-child(2)
+{
+    height: 300px;
+    background-color: aliceblue;
+    margin-top: 20px;
+}
+
+footer
+{
+    clear: both;
+    height: 100px;
+    background-color: aliceblue;
+    margin-top: 20px;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Position</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        
+        div{
+            padding: 20px; color: #ffffff;
+        }
+
+        #wrapper{
+            width: 600px;
+        }
+
+        #div-1
+        {
+            background-color: #800040;
+            position: fixed;
+            bottom: 0px;
+            right: 0px;
+            z-index: 10;
+        }
+
+        #div-2
+        {
+            background-color: #0000ff;
+            /* position: relative;
+            top: 30px;
+            left: -20px;
+            bottom: 10px;
+            right: 20px; */
+            position: relative;
+            height: 100px;
+        }
+
+        #div-3
+        {
+            background-color: #408080;
+        }
+
+        #div-a{
+            background-color: #c4c400;
+            /* position: static;
+            position: relative;
+            left: 30px;
+            top: 30px; */
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+
+        #div-b{
+            background-color: #ff00ff;
+            position: absolute;
+            left: 250px;
+            bottom: 0px;
+        }
+
+        #div-c{
+            background-color: #ff8000;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <div id="div-1">
+            DIV-1
+        </div>
+        <div id="div-2">
+            <div id="div-a">DIV-A</div>
+            <div id="div-b">DIV-B</div>
+            <div id="div-c">DIV-C</div>
+        </div>
+        <div id="div-3">
+            DIV-3
+        </div>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quae itaque iste doloribus iure nihil harum, ratione dolores, corrupti quis quasi beatae omnis veniam nisi enim! Velit repudiandae similique tenetur?</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quae itaque iste doloribus iure nihil harum, ratione dolores, corrupti quis quasi beatae omnis veniam nisi enim! Velit repudiandae similique tenetur?</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quae itaque iste doloribus iure nihil harum, ratione dolores, corrupti quis quasi beatae omnis veniam nisi enim! Velit repudiandae similique tenetur?</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quae itaque iste doloribus iure nihil harum, ratione dolores, corrupti quis quasi beatae omnis veniam nisi enim! Velit repudiandae similique tenetur?</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quae itaque iste doloribus iure nihil harum, ratione dolores, corrupti quis quasi beatae omnis veniam nisi enim! Velit repudiandae similique tenetur?</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quae itaque iste doloribus iure nihil harum, ratione dolores, corrupti quis quasi beatae omnis veniam nisi enim! Velit repudiandae similique tenetur?</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quae itaque iste doloribus iure nihil harum, ratione dolores, corrupti quis quasi beatae omnis veniam nisi enim! Velit repudiandae similique tenetur?</p>
+    </div>
+
+</body>
+
+</html>

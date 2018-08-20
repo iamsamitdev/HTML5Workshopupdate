@@ -1,0 +1,102 @@
+body
+{
+    background-color: chartreuse;
+    margin: 0px;
+}
+
+main
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header
+{
+    height: 100px;
+    background-color: aliceblue;
+    margin-bottom: 20px;
+}
+
+nav
+{
+    height: 50px;
+    background-color:aliceblue;
+    margin-bottom: 20px;
+}
+
+section#s1
+{
+    width: 580px;
+    margin-right: 20px;
+    float: left;
+}
+
+section#s1 article:nth-child(1)
+{
+    height: 400px;
+    background-color: aliceblue;
+    margin-bottom: 20px;
+}
+
+section#s1 article:nth-child(2)
+{
+    height: 200px;
+    background-color: aliceblue;
+    margin-bottom: 20px;
+}
+
+section#s2
+{
+    width: 100px;
+    float: left;
+}
+
+section#s2 article:nth-child(1)
+{
+    height: 230px;
+    background-color: aliceblue;
+    margin-bottom: 20px;
+}
+
+section#s2 article:nth-child(2)
+{
+    height: 150px;
+    background-color: aliceblue;
+    margin-bottom: 20px;
+}
+
+section#s2 article:nth-child(3)
+{
+    height: 200px;
+    background-color: aliceblue;
+    margin-bottom: 20px;
+}
+
+section#s3
+{
+    width: 280px;
+    margin-left: 20px;
+    float: right;
+}
+
+section#s3 aside:nth-child(1)
+{
+    height: 400px;
+    background-color: aliceblue;
+    margin-bottom: 20px;
+}
+
+section#s3 aside:nth-child(2)
+{
+    height: 200px;
+    background-color: aliceblue;
+    margin-bottom: 20px;
+}
+
+footer
+{
+    clear: both;
+    height: 100px;
+    background-color: aliceblue;
+}

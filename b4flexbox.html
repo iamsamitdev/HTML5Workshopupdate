@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Flexbox</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap4/css/bootstrap.min.css" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="jumbotron">
+        <h1 class="display-3">Flexbox</h1>
+    </div>
+
+    <div class="container">
+        <h4>Block flexbox</h4>
+        <div class="d-flex p-3 m-3 bg-secondary text-white">
+            <div class="p-2 bg-primary">item 1</div>
+            <div class="p-2 bg-success">item 2</div>
+            <div class="p-2 bg-warning">item 3</div>
+        </div>
+
+        <h4>Inline flexbox</h4>
+        <div class="d-inline-flex p-3 m-3 bg-secondary text-white">
+            <div class="p-2 bg-primary">item 1</div>
+            <div class="p-2 bg-success">item 2</div>
+            <div class="p-2 bg-warning">item 3</div>
+        </div>
+
+        <h4>Horizontal Direction</h4>
+        <div class="d-flex flex-row p-3 m-3 bg-secondary text-white">
+            <div class="p-2 bg-primary">item 1</div>
+            <div class="p-2 bg-success">item 2</div>
+            <div class="p-2 bg-warning">item 3</div>
+        </div>
+        <div class="d-flex flex-row-reverse p-3 m-3 bg-secondary text-white">
+            <div class="p-2 bg-primary">item 1</div>
+            <div class="p-2 bg-success">item 2</div>
+            <div class="p-2 bg-warning">item 3</div>
+        </div>
+
+        <h4>Vertical Direction</h4>
+        <div class="d-flex flex-column p-3 m-3 bg-secondary text-white">
+            <div class="p-2 bg-primary">item 1</div>
+            <div class="p-2 bg-success">item 2</div>
+            <div class="p-2 bg-warning">item 3</div>
+        </div>
+        <div class="d-flex flex-column-reverse p-3 m-3 bg-secondary text-white">
+            <div class="p-2 bg-primary">item 1</div>
+            <div class="p-2 bg-success">item 2</div>
+            <div class="p-2 bg-warning">item 3</div>
+        </div>
+
+        <h4>Justify Content</h4>
+        <!--start , end, center, between, around-->
+        <div class="d-flex justify-content-around p-3 m-3 bg-secondary text-white">
+            <div class="p-2 bg-primary">item 1</div>
+            <div class="p-2 bg-success">item 2</div>
+            <div class="p-2 bg-warning">item 3</div>
+        </div>
+
+        <h4>Order</h4>
+        <div class="d-flex flex-column p-3 m-3 bg-secondary text-white">
+            <div class="p-2 bg-primary order-3">item 1</div>
+            <div class="p-2 bg-success order-1">item 2</div>
+            <div class="p-2 bg-warning order-2">item 3</div>
+        </div>
+
+        <h4>Wrap</h4>
+        <div class="d-flex flex-wrap p-3 m-3 bg-secondary text-white">
+            <div class="p-2 bg-primary">item 1</div>
+            <div class="p-2 bg-success">item 2</div>
+            <div class="p-2 bg-warning">item 3</div>
+            <div class="p-2 bg-primary">item 4</div>
+            <div class="p-2 bg-success">item 5</div>
+            <div class="p-2 bg-warning">item 6</div>
+            <div class="p-2 bg-primary">item 7</div>
+            <div class="p-2 bg-success">item 8</div>
+            <div class="p-2 bg-warning">item 9</div>
+            <div class="p-2 bg-primary">item 10</div>
+            <div class="p-2 bg-success">item 11</div>
+            <div class="p-2 bg-warning">item 12</div>
+            <div class="p-2 bg-primary">item 13</div>
+            <div class="p-2 bg-success">item 14</div>
+            <div class="p-2 bg-warning">item 15</div>
+            <div class="p-2 bg-primary">item 16</div>
+            <div class="p-2 bg-success">item 17</div>
+            <div class="p-2 bg-warning">item 18</div>
+        </div>
+
+        <h4>Align Content</h4>
+        <!--start , end, center, between, around-->
+        <div class="d-flex flex-wrap align-content-center p-3 m-3 bg-secondary text-white" style="height: 50vh">
+                <div class="p-2 bg-primary">item 1</div>
+                <div class="p-2 bg-success">item 2</div>
+                <div class="p-2 bg-warning">item 3</div>
+                <div class="p-2 bg-primary">item 4</div>
+                <div class="p-2 bg-success">item 5</div>
+                <div class="p-2 bg-warning">item 6</div>
+                <div class="p-2 bg-primary">item 7</div>
+                <div class="p-2 bg-success">item 8</div>
+                <div class="p-2 bg-warning">item 9</div>
+                <div class="p-2 bg-primary">item 10</div>
+                <div class="p-2 bg-success">item 11</div>
+                <div class="p-2 bg-warning">item 12</div>
+                <div class="p-2 bg-primary">item 13</div>
+                <div class="p-2 bg-success">item 14</div>
+                <div class="p-2 bg-warning">item 15</div>
+                <div class="p-2 bg-primary">item 16</div>
+                <div class="p-2 bg-success">item 17</div>
+                <div class="p-2 bg-warning">item 18</div>
+        </div>
+
+        <h4>Align item</h4>
+        <div class="d-flex align-items-center p-3 justify-content-center m-3 bg-secondary text-white" style="height: 50vh">
+            <div class="p-2 bg-primary order-3">item 1</div>
+            <div class="p-2 bg-success order-1">item 2</div>
+            <div class="p-2 bg-warning order-2">item 3</div>
+        </div>
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+    <script src="bootstrap4/js/popper.min.js" crossorigin="anonymous"></script>
+    <script src="bootstrap4/js/bootstrap.min.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

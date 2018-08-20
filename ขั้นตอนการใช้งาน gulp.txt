@@ -1,0 +1,46 @@
+การใช้งาน gulp สำหรับรัน task อัตโนมัติ
+-----------------
+Step 0: มีโปรแกรม NodeJs ติดตั้งอยู่บนเครื่องแล้ว
+
+Step 1: ติดตั้ง gulp ระดับ global
+npm install -g gulp
+
+Step 2 : ติดตั้ง Gulp ระดับ Local
+npm install --save-dev gulp
+
+Step 3: ติดตั้งส่วนเสริม
+npm install browser-sync gulp --save-dev
+
+Step 5: สร้างไฟล์ชื่อ gulpfile.js ในโปรเจ็กต์ (root path)
+
+ขั้นตอนการทำ minify css , and js
+=========================
+ติดตั้ง gulp ให้เรียบร้อย
+
+1. ติดตั้ง plugin ชื่อ  
+    gulp-clean-css (minify css)
+    gulp-uglify (minify js)
+    gulp-concat (รวมไฟล์ทังหมดเข้าด้วยกัน)
+
+    คำสั่งติดตั้ง gulp-minify-css
+    npm install gulp-clean-css --save-dev
+
+    คำสั่งติดตั้ง gulp-uglify
+    npm install gulp-uglify --save-dev
+
+    คำสั่งติดตั้ง gulp-concat
+    npm install  gulp-concat --save-dev
+
+    ส่วนเสริมสำหรับย่อรูป
+    npm install imagemin-jpegtran imagemin-svgo imagemin-gifsicle imagemin-optipng --save
+    npm install gulp-imagemin --save
+
+
+
+
+
+
+
+
+
+

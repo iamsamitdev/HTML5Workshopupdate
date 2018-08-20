@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Register</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap3/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="text-center">ลงทะเบียน</h1>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-md-offset-4">
+
+            <h1>
+                เข้าหน้า  <a href="#modal-login" data-toggle="modal" class="btn btn-success">Login</a>
+            </h1>
+
+            <form action="" method="POST" role="form">
+
+
+                <div class="alert alert-danger">
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                    <strong>ผิดพลาด</strong> ข้อมูลไม่ถูกต้อง
+                </div>
+
+                <p>
+                    <a href="#" data-toggle="tooltip"  
+                    data-placement="top" title="This is tooltip">
+                        My tool tip
+                    </a>
+                </p>
+
+                <p>
+                    <a href="#" data-toggle="popover"
+                    data-placement="top" 
+                    data-html="true" 
+                    data-title="<h1>This is title</h1>"
+                    data-content="<h1>Hello</h1>"
+                    data-trigger="focus">
+                        My popover</a>
+                </p>
+
+                <div class="form-group">
+                    <label for="">Fullname</label>
+                    <input type="text" class="form-control" id="">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Email</label>
+                    <input type="email" class="form-control" id="">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Tel</label>
+                    <input type="tel" class="form-control" id="">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Address</label>
+                    <textarea name="address" id="" class="form-control" rows="3" required="required"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+        </div>
+
+    </div>
+
+
+
+    <!--Modal -->
+
+    <div class="modal fade" id="modal-login">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                        <form action="" method="POST" role="form">
+
+                                <div class="alert alert-danger">
+                                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                    <strong>ผิดพลาด</strong> ข้อมูลไม่ถูกต้อง
+                                </div>
+                
+                                <div class="form-group">
+                                    <label for="">Email</label>
+                                    <input type="email" class="form-control" id="">
+                                </div>
+                
+                                <div class="form-group">
+                                    <label for="">Password</label>
+                                    <input type="tel" class="form-control" id="">
+                                </div>
+        
+                            </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <!-- jQuery -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="bootstrap3/js/bootstrap.min.js"></script>
+
+    <script>
+        $(function(){
+            $('[data-toggle=tooltip]').tooltip();
+            $('[data-toggle=popover]').popover();
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Position workshop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+    <style>
+        body{
+            background-color: #e5e5e5;
+        }
+        .wrapper {
+            width: 620px;
+            margin-left: auto;
+            margin-right: auto;
+            overflow: hidden;
+        }
+
+        h1 {
+            font-family: 'Kanit', sans-serif;
+            background-color: chocolate;
+            color: #fff;
+            font-size: 20px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .container {
+            overflow: hidden;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-bottom: 2px dashed #d3a9a9;
+        }
+
+        .container:hover
+        {
+            background-color: #ffffff;
+        }
+
+        .img {
+            width: 280px;
+            float: left;
+        }
+
+        .img img {
+            width: 280px;
+            border-radius: 10px;
+        }
+
+        .content {
+            width: 300px;
+            height: 190px;
+            float: right;
+            position: relative;
+        }
+
+        h2 {
+            font-family: 'Kanit', sans-serif;
+            font-size: 20px;
+            color: chocolate;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+        h3 {
+            font-family: 'Kanit', sans-serif;
+            font-size: 16px;
+            color: chocolate;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+        .content p {
+            font-size: 15px;
+            font-family: 'Kanit', sans-serif;
+        }
+
+        .btn-review {
+            position: absolute;
+            left: 0px;
+            bottom: 0px;
+        }
+
+        .btn-review img {
+            width: 100px;
+        }
+
+        .badge {
+            position: absolute;
+            right: 0px;
+            bottom: 0px;
+            transform: rotate(-30deg);
+        }
+
+        .badge img {
+            width: 80px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <h1>HIGHLIGHT</h1>
+
+        <div class="container">
+            <div class="img">
+                <img src="images/food1.jpg" alt="">
+            </div>
+            <div class="content">
+                <h2>ร้านยามาเนะ อาหารญี่ปุ่น</h2>
+                <h3>Yamane Janpanese Restaurant</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi reprehenderit velit laboriosam ea..</p>
+                <div class="btn-review">
+                    <img src="images/btn-review.png" alt="">
+                </div>
+                <div class="badge">
+                    <img src="images/badgel.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="img">
+                <img src="images/food2.jpeg" alt="">
+            </div>
+            <div class="content">
+                <h2>วอเตอร์ไซต์ รีสอร์ท เรสเตอรองท์</h2>
+                <h3>Waterside Resort Restaurant</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi reprehenderit velit laboriosam ea..</p>
+                <div class="btn-review">
+                    <img src="images/btn-review.png" alt="">
+                </div>
+                <div class="badge">
+                    <img src="images/badgel.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="img">
+                <img src="images/food3.jpg" alt="">
+            </div>
+            <div class="content">
+                <h2>ร้านซาลัง อาหารสไตล์เกาหลี</h2>
+                <h3>Salang Restaurant</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi reprehenderit velit laboriosam ea..</p>
+                <div class="btn-review">
+                    <img src="images/btn-review.png" alt="">
+                </div>
+                <div class="badge">
+                    <img src="images/badgel.png" alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

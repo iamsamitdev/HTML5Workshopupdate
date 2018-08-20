@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Boostrap 4 Flexbox</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="jumbotron">
+        <div class="container">
+                <h1>Flexbox</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <h4>Block Flex</h4>
+        <div class="d-flex p-3 bg-secondary text-light">
+            <div class="p-2 bg-info">item 1</div>
+            <div class="p-2 bg-warning">item 2</div>
+            <div class="p-2 bg-danger">item 3</div>
+        </div>
+
+        <h4>Inline Flex</h4>
+        <div class="d-inline-flex p-3 bg-secondary text-light">
+            <div class="p-2 bg-info">item 1</div>
+            <div class="p-2 bg-warning">item 2</div>
+            <div class="p-2 bg-danger">item 3</div>
+        </div>
+
+        <h4>Horizontal Flex (เรียงแนวนอน ซ้าย -> ขวา)</h4>
+        <div class="d-flex flex-row p-3 bg-secondary text-light">
+            <div class="p-2 bg-info">item 1</div>
+            <div class="p-2 bg-warning">item 2</div>
+            <div class="p-2 bg-danger">item 3</div>
+        </div>
+
+        <h4>Horizontal Flex (เรียงแนวนอน ขวา -> ซ้าย)</h4>
+        <div class="d-flex flex-row-reverse mt-3 p-3 bg-secondary text-light">
+            <div class="p-2 bg-info">item 1</div>
+            <div class="p-2 bg-warning">item 2</div>
+            <div class="p-2 bg-danger">item 3</div>
+        </div>
+
+        <h4>Vertical Flex (เรียงแนวตั้ง บน->ล่าง)</h4>
+        <div class="d-flex flex-column p-3 bg-secondary text-light">
+            <div class="p-2 bg-info">item 1</div>
+            <div class="p-2 bg-warning">item 2</div>
+            <div class="p-2 bg-danger">item 3</div>
+        </div>
+
+        <h4>Justify Content (แบ่งขนาดเนื้อหาของกล่องเท่าๆ กัน)</h4>
+        <!-- start , end , center , between, around-->
+        <div class="d-flex justify-content-center p-3 bg-secondary text-light">
+            <div class="p-2 bg-info">item 1</div>
+            <div class="p-2 bg-warning">item 2</div>
+            <div class="p-2 bg-danger">item 3</div>
+        </div>
+
+        <h4>Fill / Equal Width</h4>
+        <div class="d-flex p-3 bg-secondary text-light">
+            <div class="p-2 bg-info flex-fill">item 1</div>
+            <div class="p-2 bg-warning flex-fill">item 2</div>
+            <div class="p-2 bg-danger flex-fill">item 3</div>
+        </div>
+
+        <h4>Order (การเรียงลำดับ)</h4>
+        <div class="d-flex p-3 bg-secondary text-light">
+            <div class="p-2 bg-info flex-fill order-3">item 1</div>
+            <div class="p-2 bg-warning flex-fill order-1">item 2</div>
+            <div class="p-2 bg-danger flex-fill order-2">item 3</div>
+        </div>
+
+        <h4>Wrap (การตัดบรรทัดเมื่อยาวเกินหน้าจอ)</h4>
+        <div class="d-flex flex-wrap p-3 bg-secondary text-light">
+            <div class="p-2 bg-info">item 1</div>
+            <div class="p-2 bg-warning">item 2</div>
+            <div class="p-2 bg-danger">item 3</div>
+            <div class="p-2 bg-info">item 4</div>
+            <div class="p-2 bg-warning">item 5</div>
+            <div class="p-2 bg-danger">item 6</div>
+            <div class="p-2 bg-info">item 7</div>
+            <div class="p-2 bg-warning">item 8</div>
+            <div class="p-2 bg-danger">item 9</div>
+            <div class="p-2 bg-info">item 10</div>
+            <div class="p-2 bg-warning">item 11</div>
+            <div class="p-2 bg-danger">item 12</div>
+            <div class="p-2 bg-info">item 13</div>
+            <div class="p-2 bg-warning">item 14</div>
+            <div class="p-2 bg-danger">item 15</div>
+        </div>
+
+        <h4>Align item (การเรียงแนวตั้ง)</h4>
+        <!-- start , end , center-->
+        <div class="d-flex align-items-center justify-content-center p-3 bg-secondary text-light" style="height:30vh">
+                <div class="p-2 bg-info">item 1</div>
+                <div class="p-2 bg-warning">item 2</div>
+                <div class="p-2 bg-danger">item 3</div>
+                <div class="p-2 bg-info">item 4</div>
+                <div class="p-2 bg-warning">item 5</div>
+        </div>
+
+        <h4>Align selft (การเรียงแนวตั้งโดยระบุที่ตัวลูก)</h4>
+        <!-- start , end , center-->
+        <div class="d-flex align-items-center justify-content-between  p-3 bg-secondary text-light" style="height:30vh">
+                <div class="p-2 bg-info align-self-start">item 1</div>
+                <div class="p-2 bg-warning align-self-center">item 2</div>
+                <div class="p-2 bg-danger align-self-end">item 3</div>
+        </div>
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

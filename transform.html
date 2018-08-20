@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CSS3 Transform</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        .wrapper {
+            width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            overflow: hidden;
+            height: 100%;
+        }
+
+        .content-translate {
+            width: 250px;
+            height: 125px;
+            background: #008040;
+            padding: 10px;
+            color: aliceblue;
+            margin-top: 100px;
+            margin-right: 100px;
+            box-shadow: 10px 10px 0px darkcyan;
+            text-align: center;
+            padding-top: 125px;
+            float: left;
+            transition: transform 1s;
+        }
+
+        .content-translate:active {
+            transform: translate(5px, 5px);
+            box-shadow: 0px 0px 0px darkcyan;
+        }
+
+
+        .content-rotate {
+            width: 250px;
+            height: 125px;
+            background: #79066d;
+            padding: 10px;
+            color: aliceblue;
+            margin-top: 100px;
+            box-shadow: 10px 10px 0px darkcyan;
+            text-align: center;
+            padding-top: 125px;
+            float: left;
+            transition: transform 1s;
+        }
+
+        .content-rotate:active {
+            transform: rotate(-30deg);
+            box-shadow: 0px 0px 0px darkcyan;
+        }
+
+
+        .content-scale {
+            width: 250px;
+            height: 125px;
+            background: #ff0080;
+            padding: 10px;
+            color: aliceblue;
+            margin-top: 100px;
+            text-align: center;
+            padding-top: 125px;
+            float: left;
+            margin-right: 100px;
+            transition: transform 1s;
+        }
+
+        .content-scale:active {
+            transform: scale(0.9, 0.9);
+        }
+
+         .content-skew {
+            width: 250px;
+            height: 125px;
+            background: #ff8000;
+            padding: 10px;
+            color: aliceblue;
+            margin-top: 100px;
+            text-align: center;
+            padding-top: 125px;
+            float: left;
+            transition: transform 1s;
+        }
+
+        .content-skew:active {
+            transform: skew(20deg,20deg);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="content-translate">
+            Transform - Translate
+        </div>
+
+        <div class="content-rotate">
+            Transform - Rotate
+        </div>
+
+        <div class="content-scale">
+            Transform - Scale
+        </div>
+
+        <div class="content-skew">
+                Transform - Skew
+            </div>
+    </div>
+
+</body>
+
+</html>
